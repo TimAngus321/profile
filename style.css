@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  color: #084C61;
+  font-size:20px;
+  line-height: 25px;
+  max-width: 1140px;
+  margin:0 auto;
+}
+h1,
+h2,
+h3 {
+  color: #D36060;
+  line-height: 50px;
+
+}
+h1 {
+
+    font-size: 32px;
+    font-weight: 900;
+}
+div {
+  display: block;
+}
+
+p {
+  line-height: 65px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  margin: 20px 20px;
+  padding: 30px;
+  background-color: rgb(240, 240, 240);
+  box-shadow:0px 10px 30px rgba(0,0,0,0.2);
+}
+
+
+.btn-red {
+    background-color: none;
+    color: #084C61;
+    font-size: 30px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 50px;
+}
+.btn-red:hover {
+  background-color: #D36060;
+  transition: 1s;
+}
+
+.icons {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.icons li {
+    color: #56A3A6;
+    margin: 10px, 10px;
+    line-height: 25px;
+    text-align: center;
+    width: 50px;
+    font-size: 75px;
+    display: inline;
+}
+
+
+.fa-facebook-square {
+    color: grey;
+
+  }
+.fa-facebook-square:hover {
+  color: #4266B2;
+  transition: 1s;
+  }
+.fa-twitter-square{
+  color: grey;
+ }
+
+ .fa-twitter-square:hover {
+  color: #1CA1F2;
+  transition: 1s;
+ }
+
+ .fa-github-square {
+  color: grey;
+ }
+
+.fa-github-square:hover {
+  color: #24292E;
+  transition: 1s;
+}
+
+.container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
